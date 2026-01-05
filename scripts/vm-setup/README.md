@@ -26,7 +26,6 @@ Both scripts provide the same functionality but are optimized for their respecti
 Before running these scripts, ensure:
 - Fresh Debian or Ubuntu Server installation
 - Root access or sudo privileges
-- Active internet connection
 - Know your network subnet (or let script auto-detect)
 
 ## Installation
@@ -68,7 +67,7 @@ sudo ./ubuntu-setup.sh --ufw
 
 ### Specify subnet manually
 ```bash
-sudo ./ubuntu-setup.sh --ufw --subnet 10.30.50.0/24
+sudo ./ubuntu-setup.sh --ufw --subnet 192.168.1.0/24
 ```
 
 ### With Docker
@@ -205,17 +204,6 @@ Log out and back in (or reboot), then verify Docker is working:
 ```bash
 docker --version
 ```
-### 4. Recommended Next Steps
-
-**Security**:
-- [ ] Set up SSH key authentication
-- [ ] Disable password authentication (after keys configured)
-- [ ] Review UFW rules: `sudo ufw status numbered`
-- [ ] Review SSH hardening config
-
-**Proxmox Integration**:
-- [ ] Verify VM shows IP in Proxmox web interface
-
 ## Troubleshooting
 
 ### Script Fails at Package Manager Locks
@@ -345,7 +333,7 @@ sudo nano /etc/ssh/sshd_config.d/99-debian-setup.conf
 sudo systemctl restart sshd
 ```
 
-To revert SSH hardening entirely:
+To revert SSH configurations entirely:
 ```bash
 # Ubuntu
 sudo rm /etc/ssh/sshd_config.d/99-ubuntu-setup.conf
