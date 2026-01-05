@@ -81,7 +81,7 @@ See `scripts/proxmox-setup/README.md` for full details.
 
 **Location:** `scripts/vm-setup/`
 
-Separate scripts are maintained for Debian and Ubuntu to avoid OS-specific edge cases and conditional logic.
+Separate scripts are maintained for Debian and Ubuntu to account for OS-specific differences without relying on conditional logic.
 
 Scripts:
 - `ubuntu-setup.sh`
@@ -90,7 +90,6 @@ Scripts:
 Purpose:
 - Provide a consistent, secure baseline for new VMs
 - Integrate cleanly with Proxmox
-- Avoid modifying upstream configuration files directly
 
 Shared behavior across both scripts:
 - Installs QEMU guest agent for Proxmox integration
@@ -191,7 +190,7 @@ See `scripts/docker-compose/llm-chat/README.md` for complete setup instructions 
 ### New Proxmox Host
 
 1. Install Proxmox VE
-2. SSH or log in locally as root
+2. SSH or log in locally
 3. Run `proxmox-setup.sh`
 4. Review output and reboot if kernel or system packages were updated
 
@@ -217,8 +216,34 @@ This project is open source and available under the MIT License.
 
 ## Related Resources
 
+### Core Infrastructure
 - [Proxmox VE Documentation](https://pve.proxmox.com/pve-docs/)
 - [Proxmox Community Scripts](https://github.com/community-scripts/ProxmoxVE)
+- [Docker Documentation](https://docs.docker.com/)
+
+### Security & Hardening
 - [UFW Documentation](https://help.ubuntu.com/community/UFW)
 - [Fail2Ban Documentation](https://www.fail2ban.org/)
-- [Docker Documentation](https://docs.docker.com/)
+- [OpenSSH Guidelines](https://infosec.mozilla.org/guidelines/openssh)
+- [Docker Security Best Practices](https://docs.docker.com/engine/security/)
+
+### Self-Hosted Services
+- [Watchtower](https://containrrr.dev/watchtower/)
+- [Dockge](https://github.com/louislam/dockge)
+- [Vaultwarden](https://github.com/dani-garcia/vaultwarden/wiki)
+- [IT-Tools](https://github.com/CorentinTh/it-tools)
+- [Stirling PDF](https://github.com/Stirling-Tools/Stirling-PDF)
+- [Ollama](https://github.com/ollama/ollama)
+- [Lobe Chat](https://github.com/lobehub/lobe-chat)
+- [SearXNG](https://docs.searxng.org/)
+- [Valkey](https://valkey.io/)
+
+### AI Development Tools
+- [Claude Code](https://code.claude.com/docs/en/overview)
+- [Gemini CLI](https://geminicli.com/docs/)
+- [OpenAI Codex](https://developers.openai.com/codex)
+
+### Discovery & Learning
+- [Awesome-Selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted)
+- [Awesome-Sysadmin](https://github.com/awesome-foss/awesome-sysadmin)
+- [Awesome-Docker](https://github.com/veggiemonk/awesome-docker)
