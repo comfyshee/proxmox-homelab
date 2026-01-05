@@ -243,7 +243,7 @@ This project is open source and available under the MIT License.
 - [Gemini CLI](https://geminicli.com/docs/)
 - [OpenAI Codex](https://developers.openai.com/codex)
 
-### Discovery & Learning
+### Community Resources
 - [Awesome-Selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted)
 - [Awesome-Sysadmin](https://github.com/awesome-foss/awesome-sysadmin)
 - [Awesome-Docker](https://github.com/veggiemonk/awesome-docker)
